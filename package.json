@@ -1,0 +1,33 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Muralles/npm-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/James-Muralles/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/James-Muralles/npm-exercises#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "cli": "^1.0.1",
+    "jquery": "^3.4.1",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
